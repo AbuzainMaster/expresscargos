@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project name="E:\expresslearning\expresslearning.clpprj">
+ <settings>
+  <PM_URL><![CDATA[http://localhost/E:/expresslearning]]></PM_URL>
+  <PM_HOME_URL><![CDATA[http://localhost/E:/expresslearning]]></PM_HOME_URL>
+  <PM_LIBS><![CDATA[]]></PM_LIBS>
+  <PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION>
+  <PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR>
+  <PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE>
+  <PM_LANGUAGE><![CDATA[]]></PM_LANGUAGE>
+ </settings>
+ <removed value=";"/>
+ <added value=""/>
+ <lastopfiles>
+  <file name="E:\expresslearning\cargoamerica.html"/>
+  <file name="E:\expresslearning\assets\css\main.css"/>
+  <file name="E:\expresslearning\cargopakistan.html"/>
+  <file name="E:\expresslearning\contact.html"/>
+  <file name="E:\expresslearning\transport.html"/>
+  <file name="E:\expresslearning\internationalcargo.html"/>
+  <file name="E:\expresslearning\importexport.html"/>
+  <file name="E:\expresslearning\cargochina.html"/>
+  <file name="E:\expresslearning\about.html"/>
+  <file name="E:\expresslearning\index.html"/>
+  <lastactivefile name=""/>
+ </lastopfiles>
+ <errors version="1.12.0"/>
+ <cakedata/>
+ <dplmenupath/>
+ <laravael/>
+ <smartyassings/>
+ <twigtemplate/>
+ <yiidata/>
+ <todoblock>
+  <todofile name="E:\expresslearning\assets\vendor\bootstrap\js\bootstrap.bundle.js">
+   <todo pos="5;378" name="TODO: tooltip passes `false` instead of selector, so we need to check"/>
+   <todo pos="5;763" name="TODO: this is now unused; remove later along with prev()"/>
+   <todo pos="5;1139" name="TODO:v6 remove boolean support"/>
+   <todo pos="13;1182" name="TODO use `document.visibilityState`"/>
+   <todo pos="9;1342" name="TODO: change tests that use empty divs to avoid this check"/>
+   <todo pos="7;3600" name="TODO: v6 revert #37011 &amp; change markup https://getbootstrap.com/docs/5.3/forms/input-group/"/>
+   <todo pos="71;3774" name="TODO: v6 remove"/>
+   <todo pos="7;3856" name="TODO: v6 revert #37011 &amp; change markup https://getbootstrap.com/docs/5.3/forms/input-group/"/>
+   <todo pos="7;5144" name="TODO: v6 remove this or make it optional"/>
+   <todo pos="7;5230" name="TODO: remove this check in v6"/>
+   <todo pos="7;5235" name="TODO: v6 the following can be achieved with CSS only"/>
+   <todo pos="5;5606" name="TODO: v6 @deprecated, keep it for backwards compatibility reasons"/>
+   <todo pos="5;5614" name="TODO v6 @deprecated, keep it for backwards compatibility reasons"/>
+   <todo pos="7;5673" name="TODO: on v6 target should be given explicitly &amp; remove the {target: 'ss-target'} case"/>
+   <todo pos="7;5676" name="TODO: v6 Only for backwards compatibility reasons. Use rootMargin only"/>
+   <todo pos="108;5872" name="TODO: could only be `tab` in v6"/>
+   <todo pos="9;5886" name="TODO: should throw exception in v6"/>
+  </todofile>
+  <todofile name="E:\expresslearning\assets\vendor\bootstrap\js\bootstrap.esm.js">
+   <todo pos="3;374" name="TODO: tooltip passes `false` instead of selector, so we need to check"/>
+   <todo pos="3;759" name="TODO: this is now unused; remove later along with prev()"/>
+   <todo pos="3;1135" name="TODO:v6 remove boolean support"/>
+   <todo pos="11;1178" name="TODO use `document.visibilityState`"/>
+   <todo pos="7;1338" name="TODO: change tests that use empty divs to avoid this check"/>
+   <todo pos="5;1757" name="TODO: v6 revert #37011 &amp; change markup https://getbootstrap.com/docs/5.3/forms/input-group/"/>
+   <todo pos="69;1931" name="TODO: v6 remove"/>
+   <todo pos="5;2013" name="TODO: v6 revert #37011 &amp; change markup https://getbootstrap.com/docs/5.3/forms/input-group/"/>
+   <todo pos="5;3301" name="TODO: v6 remove this or make it optional"/>
+   <todo pos="5;3387" name="TODO: remove this check in v6"/>
+   <todo pos="5;3392" name="TODO: v6 the following can be achieved with CSS only"/>
+   <todo pos="3;3763" name="TODO: v6 @deprecated, keep it for backwards compatibility reasons"/>
+   <todo pos="3;3771" name="TODO v6 @deprecated, keep it for backwards compatibility reasons"/>
+   <todo pos="5;3830" name="TODO: on v6 target should be given explicitly &amp; remove the {target: 'ss-target'} case"/>
+   <todo pos="5;3833" name="TODO: v6 Only for backwards compatibility reasons. Use rootMargin only"/>
+   <todo pos="106;4029" name="TODO: could only be `tab` in v6"/>
+   <todo pos="7;4043" name="TODO: should throw exception in v6"/>
+  </todofile>
+  <todofile name="E:\expresslearning\assets\vendor\bootstrap\js\bootstrap.js">
+   <todo pos="5;397" name="TODO: tooltip passes `false` instead of selector, so we need to check"/>
+   <todo pos="5;782" name="TODO: this is now unused; remove later along with prev()"/>
+   <todo pos="5;1158" name="TODO:v6 remove boolean support"/>
+   <todo pos="13;1201" name="TODO use `document.visibilityState`"/>
+   <todo pos="9;1361" name="TODO: change tests that use empty divs to avoid this check"/>
+   <todo pos="7;1780" name="TODO: v6 revert #37011 &amp; change markup https://getbootstrap.com/docs/5.3/forms/input-group/"/>
+   <todo pos="71;1954" name="TODO: v6 remove"/>
+   <todo pos="7;2036" name="TODO: v6 revert #37011 &amp; change markup https://getbootstrap.com/docs/5.3/forms/input-group/"/>
+   <todo pos="7;3324" name="TODO: v6 remove this or make it optional"/>
+   <todo pos="7;3410" name="TODO: remove this check in v6"/>
+   <todo pos="7;3415" name="TODO: v6 the following can be achieved with CSS only"/>
+   <todo pos="5;3786" name="TODO: v6 @deprecated, keep it for backwards compatibility reasons"/>
+   <todo pos="5;3794" name="TODO v6 @deprecated, keep it for backwards compatibility reasons"/>
+   <todo pos="7;3853" name="TODO: on v6 target should be given explicitly &amp; remove the {target: 'ss-target'} case"/>
+   <todo pos="7;3856" name="TODO: v6 Only for backwards compatibility reasons. Use rootMargin only"/>
+   <todo pos="108;4052" name="TODO: could only be `tab` in v6"/>
+   <todo pos="9;4066" name="TODO: should throw exception in v6"/>
+  </todofile>
+  <todofile name="E:\expresslearning\assets\vendor\isotope-layout\isotope.pkgd.js">
+   <todo pos="7;3395" name="TODO console.error"/>
+  </todofile>
+ </todoblock>
+ <dbgurls/>
+ <lasttime value="1738341933"/>
+</project>

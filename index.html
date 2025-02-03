@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<title>Express.Pk</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Favicons -->
+		<link href="expresscargo/express logo.png" rel="icon">
+
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com" rel="preconnect">
+		<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+		<!-- Vendor CSS Files -->
+		<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+		<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+		<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+		<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+		<!-- Main CSS File -->
+		<link href="assets/css/main.css" rel="stylesheet">
+
+		<!--Fork Awesome-->
+		<link rel="stylesheet" href="assets/Fork-Awesome/css/fork-awesome.min.css">
+
+		<style>
+			#header{
+
+				background-image: linear-gradient(to right, orange , red);
+			}
+			.head{
+
+				background-image: linear-gradient(to right, orange , red);
+				color: white;
+				border-radius: 10px;
+			}
+			.navmenu ul li a{
+				color: white;
+			}
+			.navmenu ul li a:hover{
+				color: yellow;
+			}
+			ul li:hover{
+				border-bottom: 2px solid white;
+			}
+			.whatsapp{
+				position: fixed;
+				left: 20px;
+				bottom: 40px;
+				z-index: 999;
+			}
+			.whatsapp > a >img{
+				border-radius: 35px;
+			}
+		</style>
+	</head>
+
+	<body class="index-page">
+
+		
+
+		<header id="header" class="header sticky-top">
+			<div class="topbar d-flex align-items-center accent-background bg-black">
+				<div class="container d-flex justify-content-center justify-content-md-between">
+					<div class="contact-info d-flex align-items-center">
+						<i class="bi bi-box d-flex align-items-center"><a href="mailto:contact@example.com">expresslearning.pk</a></i>
+						<i class="bi bi-phone d-flex align-items-center ms-4"><span>+92 3213893692</span></i>
+						<i class="bi bi-phone d-flex align-items-center ms-4"><span>+92 3333211151</span></i>
+					</div>
+					<div class="social-links d-none d-md-flex align-items-center">
+						<a href="https://wa.me/923213893692" target="_blank" class="whattsapp">
+							<i class="bi bi-whatsapp"></i></a>
+						<a href="https://www.facebook.com/expresscargoservice/?_rdc=1&_rdr#" class="facebook">
+							<i class="bi bi-facebook"></i></a>
+						<a href="https://www.instagram.com/786express?fbclid=IwY2xjawIJQxlleHRuA2FlbQIxMAABHQ6hWyQM_xIWXs9Jq4I7QH71yqrNCFhxhoNHlqjPnNOsu8Z-T1Qt9Fs7PA_aem_wWMWO_ORBXyqAZcNRo29yg" class="instagram">
+							<i class="bi bi-instagram"></i>
+						</a>
+						<a href="https://www.linkedin.com/company/88057429/admin/dashboard/" class="linkedin">
+							<i class="bi bi-linkedin"></i></a>
+					</div>
+				</div>
+			</div><!-- End Top Bar -->
+			<div class="branding d-flex align-items-cente">
+				<div class="container position-relative d-flex align-items-center justify-content-between">
+					<a href="index.html" class="logo d-flex align-items-center">
+					<img src="logo2.png" class="d-block w-100">
+					</a>
+
+					<nav id="navmenu" class="navmenu">
+						<ul>
+							<li><a href="index.html" class="active">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li class="dropdown">
+								<a href=""><span>Services</span>
+									<i class="bi bi-chevron-down toggle-dropdown"></i></a>
+								<ul>
+									<li><a href="cargopakistan.html">Cargo Services Pakistan</a></li>
+									<li><a href="cargoamerica.html">Cargo Service USA</a></li>
+									<li><a href="cargochina.html">Cargo Service China</a></li>
+									<li><a href="transport.html">Cargo Services Transport</a></li>
+									<li><a href="internationalcargo.html">International Cargo Services</a></li>
+									<li><a href="importexport.html">Import Export Cargo Services</a></li>
+								</ul>
+							</li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+						<i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+					</nav>
+
+				</div>
+
+			</div>
+
+		</header>
+
+		<main class="container">
+
+
+
+			<div class="fluid">
+				<div class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="expresscargo/bb1.png" alt="" class="d-block w-100">
+
+						</div>
+						<div class="carousel-item">
+							<img src="expresscargo/bb2.png" alt="" class="d-block w-100">
+
+						</div>
+
+						<div class="carousel-item">
+							<img src="expresscargo/bb3.png" alt="" class="d-block w-100">
+
+						</div>
+						<div class="carousel-item">
+							<img src="expresscargo/bb4.png" alt="" class="d-block w-100"">
+						</div>
+						<div class="carousel-item">
+							<img src="expresscargo/bb5.png" alt="" class="d-block w-100">
+
+
+						</div>
+
+
+						<a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+						</a>
+
+						<a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+							<span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+						</a>
+
+						<ol class="carousel-indicators"></ol>
+
+					</div>
+				</div>
+			</div><br>
+
+			<!-- Featured Services Section -->
+
+			<div class="container">
+				<div class="row" data-aos="flip-down" data-aos-delay="100">
+					<h1 class="text-center head">Who We Are</h1>
+					<p align="justify">
+						<strong><br>Welcome to Express Cargo, your trusted partner in reliable door-to-door cargo services connecting China, Dubai, and the USA to Pakistan. With years of expertise in logistics and transportation, we specialize in delivering commercial and household items seamlessly across borders. Whether by air, sea, or road, we ensure fast, secure, and hassle-free delivery tailored to meet your unique needs.</strong></p>
+					<p align="justify">
+						<strong> Express clearing cargo services, Our employees are extensively experienced in their fields and carry our mission of delivering faster, safer and easier which leads Express Cargo to provide a high quality, professional and fast-logistical solution to our customer countrywide</strong> </p>
+					<p align="justify">
+						<strong> Express Cargo, we pride ourselves on our commitment to excellence, offering end-to-end solutions that prioritize efficiency, safety, and customer satisfaction. Our dedicated team works tirelessly to provide personalized service, ensuring your shipments reach their destination on time and in perfect condition.</strong></p>
+					<p align="justify">
+						<strong> Express Cargo for a seamless logistics experience that combines global reach with local expertise. Let us handle the complexities of international shipping, so you can focus on what matters most. Your cargo, delivered with care—every time.</strong>
+					</p>
+				</div>
+			</div><br>
+
+			<!-- /Featured Services Section -->
+
+			<!-- About Section -->
+			<section id="about" class="about section">
+
+				<!-- Section Title -->
+				<div class="container section-title">
+					<div class="row">
+						<h1 class="head mb-4">About Us</h1>
+						<h1 class="">IMPORT & EXPORT Overview</h1>
+					</div>
+				</div><!-- End Section Title -->
+
+				<div class="container">
+
+					<div class="row gy-4">
+						<div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+							<img src="about image.jpg" width="550" height="500" alt="">
+						</div>
+						<div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+							<p align="justify">
+								<strong>Express Cargo is a leading , Custom clearance, and Cargo service in Pakistan that ships items imported from the China , USA , Europe to Pakistan. We have offices at Lahore, Karachi, and a warehousing facility at (port ?? ). Express clearing was founded in (2009) in Pakistan, Having evolved from a small forwarding and transport company into the country’s leading Cargo Services Providers, it’s hard to believe how far we have come in such a short time. We are the leading Cargo and custom clearance company in Pakistan. We specialize in shipping cargoes from the China , USA , Europe to Pakistan. Our services are of country-wide aptitude and wide-ranging, we go from shipping parcels as small as a makeup item to handling larger items such as textile spare parts, industrial and auto lubricants, industrial electronics, automotive parts, electronics, solar power-related items, clothing, high-tech industrial equipment, construction related stuff, pharmaceutical, lab equipment, medical kits, ceramic tiles and goods , fashion wear, and baby garments daily. With an extensive involvement of many years in the freight forwarding and logistics industry, we have been serving both industrial and commercial importers with their shipments from the China , USA , Europe to Pakistan. Due to a massive amount of shipments coming from the China , USA , Europe to Pakistan on an every month basis, we can negotiate the best possible cargo rates with freight carriers and provide timely deliveries on the cheapest rates to our customers.</strong></p>
+						</div>
+					</div><br/>
+					<div class="row">
+						<div class="col-md-6" data-aos="flip-left" data-aos-delay="100">
+							<h1 class="head text-center">Our Mission</h1>
+							<p align="justify">
+								<strong> Express clearing cargo services, Our employees are extensively experienced in their fields and carry our mission of delivering faster, safer, and easier which leads Express Cargo to provide a high-quality, professional, and fast-logistical solution to our customers countrywide.</strong></p>
+						</div>
+						<div class="col-md-6" data-aos="flip-right" data-aos-delay="100">
+							<h1 class="head text-center">Our Motto</h1>
+							<p align="justify">
+								<strong>We are a company with a solid structure and are reinforced by staff with extensive experience, who are always keen on developing and improving on a professional level. Staying prepared to offer the best service that best caters to the needs of markets and our clients is our motto.</strong></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6" data-aos="flip-left" data-aos-delay="100">
+							<h1 class="head text-center">Our Vision</h1>
+							<p align="justify">
+								<strong> customer-first approach makes us a client-oriented company.</strong></p>
+						</div>
+						<div class="col-md-6" data-aos="flip-right" data-aos-delay="100">
+							<h1 class="head text-center">Our Objective</h1>
+							<p align="justify">
+								<strong> customer-first approach drives us to achieve maximum customer satisfaction by monitoring our clients’ unique needs and then using the best technical and human resources available to fulfill those needs.</strong></p>
+						</div>
+					</div>
+				</div>
+
+			</section><!-- /About Section -->
+			<hr/><br>
+			<!-- Services Section -->
+			<section id="services" class="services section">
+
+				<!-- Section Title -->
+				<div class="container section-title">
+					<div class="row" data-aos="fade-up">
+						<h1 class="head">Services</h1>
+						<h3 class=""><br>Our customer-first approach makes us a client-oriented company</h3>
+						<p>
+							<strong> LEADING CARGO SERVICE IN PAKISTAN</strong></p>
+					</div>
+				</div><!-- End Section Title -->
+
+				<div class="container">
+
+					<div class="row g-5" data-aos="flip-up" data-aos-delay="100">
+
+						<div class="col-lg-4 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="100">
+							<div class="service-item item-cyan">
+								<img src="p1 1.jpg" width="330" height="250">
+								<h3 class="head">Cargo Services in pakistan</h3>
+								<p class="py-2 text-center">
+									<strong>LEADING CARGO SERVICE IN PAKISTAN</strong></p>
+								<a href="cargopakistan.html">
+									<button class="btn btn-warning pb-2 pt-2">Read More</button></a>
+							</div>
+						</div><!-- End Service Item -->
+
+						<div class="col-lg-4 col-md-6  mb-5" data-aos="fade-up" data-aos-delay="100">
+							<div class="service-item item-cyan">
+								<img src="cargo services/cargo amrerca.jpg" width="330" height="250">
+								<h3 class="head">Cargo Service USA</h3>
+								<p class="py-2">
+									<strong>THE LEADING CARGO SERVICE FROM USA TO PAKISTAN</strong></p>
+								<a href="cargoamerica.html">
+									<button class="btn btn-warning pb-2 pt-2">Read More</button></a>
+							</div>
+						</div><!-- End Service Item -->
+
+						<div class="col-lg-4 col-md-6  mb-5" data-aos="fade-up" data-aos-delay="100">
+							<div class="service-item item-cyan">
+								<img src="cargo services/cargo cina.jpg" width="330" height="250">
+								<h3 class="head">Cargo Service China</h3>
+								<p class="py-2">
+									<strong>SERVICES : IMPORT FROM CHINA TO PAKISTAN</strong></p>
+								<a href="cargochina.html">
+									<button class="btn btn-warning pb-2 pt-2">Read More</button></a>
+							</div>
+						</div><!-- End Service Item -->
+
+						<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+							<div class="service-item item-cyan">
+								<img src="cargo services/cargo trasport.jpg" width="330" height="250">
+								<h3 class="head">Cargo Services Transport </h3>
+								<p class="py-2">
+									<strong>RELIABLE GOODS TRANSPORTATION THROUGH EXPRESS</strong></p>
+								<a href="transport.html">
+									<button class="btn btn-warning pb-2 pt-2">Read More</button></a>
+							</div>
+						</div><!-- End Service Item -->
+
+						<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+							<div class="service-item item-cyan">
+								<img src="cargo services/p 5 1.jpg" width="330" height="250">
+								<h3 class="head">International Cargo Services</h3>
+								<p class="py-2">
+									<strong>International Cargo and Courier Services From</strong></p>
+								<a href="internationalcargo.html">
+									<button class="btn btn-warning pb-2 pt-2">Read More</button></a>
+							</div>
+						</div><!-- End Service Item -->
+
+						<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+							<div class="service-item item-cyan">
+								<img src="cargo services/p6 1.jpg" width="330" height="250">
+								<h3 class="head">Import Export Cargo Services</h3>
+								<p class="py-2">
+									<strong>AND EXPORT WITH CARGO SERVICES IN PAKISTAN</strong></p>
+								<a href="importexport.html">
+									<button class="btn btn-warning pb-2 pt-2">Read More</button></a>
+							</div>
+						</div><!-- End Service Item -->
+
+					</div>
+
+				</div>
+
+			</section><br><br><!-- /Services Section -->
+
+
+			<!-- Contact Section -->
+			<section id="contact" class="contact section" data-aos="flip-up" data-aos-delay="100">
+
+				<!-- Section Title -->
+				<div class="container section-title">
+					<h2 class="head">Contact</h2>
+					<p>
+						<strong> eius consequatur ex aliquid fuga eum quidem sint consectetur velit</strong></p>
+				</div><!-- End Section Title -->
+
+				<div class="container">
+
+					<div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+
+						<div class="col-lg-5">
+
+							<div class="info-wrap">
+								<div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+									<i class="bi bi-geo-alt flex-shrink-0"></i>
+									<div>
+										<h3>Address</h3>
+										<p>
+											<strong>Mian Rashid Minhas FB Area Block 21, Centrum Shopping Mall</strong></p>
+									</div>
+								</div><!-- End Info Item -->
+
+								<div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+									<i class="bi bi-telephone flex-shrink-0"></i>
+									<div>
+										<h3>Phone Line 1</h3>
+										<p>
+											<strong>+92 321 3893692</strong></p>
+									</div>
+								</div>
+								<div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+									<i class="bi bi-telephone flex-shrink-0"></i>
+									<div>
+										<h3>Phone Line 2</h3>
+										<p>
+											<strong>+92 333 3211151</strong></p>
+									</div>
+								</div>
+								<!-- End Info Item -->
+
+								<div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+									<i class="bi bi-envelope flex-shrink-0"></i>
+									<div>
+										<h3>Email Us</h3>
+										<p>
+											<strong>.expressclearing@gmail.com</strong></p>
+									</div>
+								</div><!-- End Info Item -->
+
+							</div>
+						</div>
+
+						<div class="col-lg-7">
+							<form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+								<div class="row gy-4">
+
+									<div class="col-md-6">
+										<label for="name-field" class="pb-2">
+											<strong> Name</strong></label>
+										<input type="text" name="name" id="name-field" class="form-control" required="">
+									</div>
+
+									<div class="col-md-6">
+										<label for="email-field" class="pb-2">
+											<strong> Email</strong></label>
+										<input type="email" class="form-control" name="email" id="email-field" required="">
+									</div>
+
+									<div class="col-md-12">
+										<label for="subject-field" class="pb-2">
+											<strong>Subject</strong></label>
+										<input type="text" class="form-control" name="subject" id="subject-field" required="">
+									</div>
+
+									<div class="col-md-12">
+										<label for="message-field" class="pb-2">
+											<strong>Message</strong></label>
+										<textarea class="form-control" name="message" rows="3" id="message-field" required=""></textarea>
+									</div>
+
+									<div class="col-md-12 text-center">
+										<div class="loading">Loading</div>
+										<div class="error-message"></div>
+										<div class="sent-message">Your message has been sent. Thank you!</div>
+
+										<button type="submit">Send Message</button>
+									</div>
+
+								</div>
+							</form>
+						</div><!-- End Contact Form -->
+
+					</div>
+
+				</div>
+
+			</section><!-- /Contact Section -->
+		</main>
+
+
+		<div class="container" data-aos="flip-up" data-aos-delay="100">
+			<div class="row" data-aos="fade-up" data-aos-delay="400">
+				<div class="col-md-12">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.113407548598!2d67.0724273745108!3d24.928206242544974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f4148864f51%3A0x11885c9e5b3eba2c!2sJaved%20Nihari%20Restaurant!5e0!3m2!1sen!2s!4v1738134923460!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+
+		</div><br>
+
+
+		<div class="container" data-aos="flip-up" data-aos-delay="100">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2 class="head py-2 mb-5">Our Service Process</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 icon">
+					<div class="process-icon"> <span>1</span> <img src="process-icon1.png" alt="">
+						<i class="bi bi-arrow-right" style="font-size: 55px; color: orange; vertical-align: middle;"></i></div>
+					<p class="p-4" style="margin-left:40px;">
+						<strong> Cargo</strong></p>
+
+				</div>
+				<div class="col-md-3">
+					<div class="process-icon"> <span style="width: 100px; height: 80px;">2</span> <img src="process-icon2.png" alt="">
+						<i class="bi bi-arrow-right" style="font-size: 55px; color: orange; vertical-align: middle;"></i> </div>
+					<p class="p-4" style="margin-left:40px;">
+						<strong>Quote</strong></p>
+				</div>
+				<div class="col-md-3">
+					<div class="process-icon"> <span>3</span> <img src="process-icon4.png" alt="">
+						<i class="bi bi-arrow-right" style="font-size: 55px; color: orange; vertical-align: middle;"></i> </div>
+					<p class="p-4" style="margin-left:40px;">
+						<strong>Delivery</strong></p>
+				</div>
+				<div class="col-md-3">
+					<div class="process-icon"> <span>4</span> <img src="process-icon3.png" alt=""> </div>
+					<p class="p-4" style="margin-left:40px;">
+						<strong> Payment</strong></p>
+				</div>
+			</div>
+		</div><br/>
+
+
+		<footer id="footer" class="footer dark-background" data-aos="fade-down" data-aos-delay="100">
+
+			<div class="container footer-top">
+				<div class="row gy-4" data-aos="fade-down" data-aos-delay="100">
+					<div class="col-lg-5 col-md-12 footer-about" data-aos="fade-down" data-aos-delay="100">
+						<a href="index.html" class="logo d-flex align-items-center">
+							<span class="sitename">Express Cargo Services</span>
+						</a>
+						<p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+						<div class="social-links d-none d-md-flex align-items-center" data-aos="fade-down" data-aos-delay="100">
+							<a href="https://wa.me/923213893692" target="_blank" class="whattsapp">
+								<i class="bi bi-whatsapp"></i></a>
+							<a href="https://www.facebook.com/expresscargoservice/?_rdc=1&_rdr#" class="facebook">
+								<i class="bi bi-facebook"></i></a>
+							<a href="https://www.instagram.com/786express?fbclid=IwY2xjawIJQxlleHRuA2FlbQIxMAABHQ6hWyQM_xIWXs9Jq4I7QH71yqrNCFhxhoNHlqjPnNOsu8Z-T1Qt9Fs7PA_aem_wWMWO_ORBXyqAZcNRo29yg" class="instagram">
+								<i class="bi bi-instagram"></i>
+							</a>
+							<a href="https://www.linkedin.com/company/88057429/admin/dashboard/" class="linkedin">
+								<i class="bi bi-linkedin"></i></a>
+						</div>
+					</div>
+
+					<div class="col-lg-1 col-6 footer-links" data-aos="fade-down" data-aos-delay="100">
+						<h4>Useful Links</h4>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About us</a></li>
+							<li><a href="#services">Services</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+
+					<div class="col-lg-3 col-6 footer-links" data-aos="fade-down" data-aos-delay="100">
+						<h4>Our Services</h4>
+						<ul>
+							<li><a href="cargopakistan.html">Cargo Services Pakistan</a></li>
+							<li><a href="cargoamerica.html">Cargo Service USA</a></li>
+							<li><a href="cargochina.html">Cargo Service China</a></li>
+							<li><a href="transport.html">Cargo Services Transport</a></li>
+							<li><a href="internationalcargo.html">International Cargo Services</a></li>
+							<li><a href="importexport.html">Import Export Cargo Services</a></li>
+						</ul>
+					</div>
+
+					<div class="col-lg-3 col-md-12 footer-contact text-center text-md-start" data-aos="fade-down" data-aos-delay="100">
+						<h4>Contact Us</h4>
+						<p>Mian Rashid Minhas</p>
+						<p>FB Area Block 21</p>
+						<p>Centrum Shopping Mall</p>
+						<p class="mt-4">
+							<strong>Phone 1:</strong> <span>+92 321 3893692</span>
+						</p>
+						<p>
+							<strong>Phone 2:</strong> <span>+92 333 3211151</span>
+						</p>
+						<p>
+							<strong>Email:</strong> <span>info.expressclearing@gmail.com</span>
+						</p>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="container copyright text-center mt-4" data-aos="fade-down" data-aos-delay="100">
+				<p class="fs-5">Copyright © <span id="year"> </span> EXPRESS CARGO. <span>All Rights Reserved</span></p>
+			</div>
+
+		</footer>
+		<div class="whatsapp">
+			<a href="https://wa.me/923213893692" target="_blank">
+			<img src="whatsapp.gif" width="65">
+			</a>
+		</div>
+
+
+
+		<script>
+			document.getElementById("year").innerHTML=new Date().getFullYear();
+		</script>
+
+
+
+
+		<!-- Scroll Top -->
+		<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+			<i class="bi bi-arrow-up-short"></i></a>
+
+		<!-- Preloader -->
+
+		<!-- Vendor JS Files -->
+		<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"> </script>
+		<script src="assets/vendor/php-email-form/validate.js"> </script>
+		<script src="assets/vendor/aos/aos.js"> </script>
+		<script src="assets/vendor/glightbox/js/glightbox.min.js"> </script>
+		<script src="assets/vendor/swiper/swiper-bundle.min.js"> </script>
+		<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"> </script>
+		<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"> </script>
+
+		<!-- Main JS File -->
+		<script src="assets/js/main.js"> </script>
+
+	</body>
+
+</html>
